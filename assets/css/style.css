@@ -6,10 +6,12 @@
 }
 
 /* Element Selectors */
+/* changes the background of the body element */
 body {
     background-color: #d9dcd6;
 }
 
+/* changes the font, background color, text color and adds padding for the header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -17,15 +19,18 @@ header {
     color: #ffffff;
 }
 
+/* changes the display for the header and h1 element to display inline-block and at 48 px font size */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* changes the font color */
 header h1 {
     color: #d9dcd6;
 }
 
+/* adds padding, margin, changes font size and color and tells the box to display to the right */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,24 +39,29 @@ header div {
     font-size: 20px;
 }
 
+/* the list contents style is set to simply none */
 header div ul {
     list-style-type: none;
 }
 
+/* changes the margin to 25px and the display is se to inline-block*/
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* changes text color and sets the decoration ie underline to none */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* changes the font size to 16px */
 p {
     font-size: 16px;
 }
 
+/* adds margin, padding, height, changes font family for all text here as well as adds a bg color and text color */
 section {
     margin-bottom: 20px;
     padding: 50px;
@@ -61,15 +71,18 @@ section {
     color: #ffffff;
 }
 
+/* sets the img max height */
 section img {
     max-height: 200px;
 }
 
+/* changes the margin and sets font size */
 section h2 h4 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* adds padding, changes font family, the text will be centered, changes the display for box's to clear */
 footer {
     padding: 30px;
     clear: both;
@@ -77,11 +90,13 @@ footer {
     text-align: center;
 }
 
+/* changes font size */
 footer h2 h4 {
     font-size: 20px;
 }
 
 /* Class Selectors */
+/* sets hight, width, margin, background image, bg size, and bg position */
 .hero {
     height: 800px;
     width: 100%;
@@ -91,22 +106,26 @@ footer h2 h4 {
     background-position: center;
 }
 
+/* changes margin and the box will float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*  box will float right and changes the margin */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* changes width, sets the display and changes margin */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* changes margin, padding, display, width, height, font family, and bg color */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,16 +137,19 @@ footer h2 h4 {
     background-color: #2589bd;
 }
 
+/* changes margin and color */
 .brand-item {
     margin-bottom: 32px;
     color: #050505;
 }
 
+/* changes margin and aligns text to the center */
 .brand-item h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* changes display style, margin, and adds a max width */
 .brand-item img {
     display: block;
     margin: 10px auto;
